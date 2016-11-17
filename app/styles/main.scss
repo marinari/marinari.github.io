@@ -209,11 +209,21 @@ h1 {
     border: 2px solid #0ACF9A;
     color: #F7E9D9;
     border-bottom: transparent;
+    }
+  }
+
+} /*end of work page styles*/
+
+div .thumbnail {
+  background-color: rgba(255,255,255, 0.3);
+  border: none;
+  padding: 5px;
+
+  .caption {
+    color: #F7E9D9;
   }
 }
 
-
-} /*end of work page styles*/
 
 
 
