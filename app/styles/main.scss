@@ -15,40 +15,67 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 body {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: transparent;
+  background-color: #F7E9D9;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views
+/* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
 .footer {
   padding-left: 15px;
   padding-right: 15px;
-}*/
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
 
 /* Custom page header */
 .header {
-  border-bottom: 1px solid #FF3752;
+  height: 100px;
 
-  /* Make the masthead heading the same height as the navigation */
-  h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    /* default styles of app, i removed to make subtitle text look more cohesive w/ heading
-    line-height: 40px;
-    padding-bottom: 15px;*/
+  .logo {
+    display: inline;
+    float: left;
+    padding-right: 20px; /*space between text and logo*/
+    max-width: 100px;
+  }
+
+  .logotype {
+    float: left;
+    width: 50%;
+  }
+
+  .nav {
+    float: right;
+    padding-top: 50px;
+
+    li {
+      margin-left: 10px;
+      font-size: medium;
+
+      a {
+        color: #F7E9D9; /*global text color for nav links*/
+      }
+
+    }
+  } /*end of nav styles*/
+
+  h2 {
+    padding-left: 20px;
   }
 
   h4 {
-    font-size: 95%;
+    font-size: 90%;
   }
-}
+} /*end of header sytles*/
 
 /* Custom page footer */
 .footer {
-  color: #D4D4CF;
+  color: #FAF4DD;
   padding-top: 19px;
-  color: #777;
+  color: #33302D;
   width: auto;
 }
 
@@ -56,7 +83,7 @@ body {
   margin: 30px 0;
 }
 
-/* Main marketing message and sign up button */
+/* Homepage Hero and Download Button*/
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
@@ -79,14 +106,114 @@ body {
 /*Styles for Main Div Globally*/
 .container-fluid {
   padding-top: 20px;
-  border-bottom: 3px solid #777;
+  border-bottom: 3px solid #33302D;
+  padding-bottom: 50px;
 }
 
-/*Narative Page Styles*/
+/*Custom Narative Page Styles*/
 #homepage {
+
   background-color: #DB2F46;
-  color: #FFF9F9;
+  color: #F7E9D9;
+
+    .nav-tabs {
+      border-bottom: 1px solid #FF3752;
+
+      li a:hover {
+        background-color: #FF3752;
+        border: 1px solid #FF3752;
+      }
+  }
+
+  .nav .active {
+    a {
+    background-color: #DB2F46;
+    border: 2px solid #FF3752;
+    color: #F7E9D9;
+    border-bottom: transparent;
+  }
 }
+
+
+} /*end of homepage styles*/
+
+#projpage {
+
+  background-color: #1E97C9;
+  color: #F7E9D9;
+
+    .nav-tabs {
+      border-bottom: 1px solid #26C0FF;
+
+      li a:hover {
+        background-color: #26C0FF;
+        border: 1px solid #26C0FF;
+      }
+  }
+
+  .nav .active {
+    a {
+    background-color: #1E97C9;
+    border: 2px solid #26C0FF;
+    color: #F7E9D9;
+    border-bottom: transparent;
+  }
+}
+
+
+} /*end of project page styles*/
+
+#skillpage {
+
+  background-color: #F0A320;
+  color: #F7E9D9;
+
+    .nav-tabs {
+      border-bottom: 1px solid #FFBE22;
+
+      li a:hover {
+        background-color: #FFBE22;
+        border: 1px solid #FFBB22;
+      }
+  }
+
+  .nav .active {
+    a {
+    background-color: #F0A320;
+    border: 2px solid #FFBB22;
+    color: #F7E9D9;
+    border-bottom: transparent;
+  }
+}
+
+
+} /*end of skill page styles*/
+
+#workpage {
+
+  background-color: #079972;
+  color: #F7E9D9;
+
+    .nav-tabs {
+      border-bottom: 1px solid #0ACF9A;
+
+      li a:hover {
+        background-color: #0ACF9A;
+        border: 1px solid #0ACF9A;
+      }
+  }
+
+  .nav .active {
+    a {
+    background-color: #079972;
+    border: 2px solid #0ACF9A;
+    color: #F7E9D9;
+    border-bottom: transparent;
+  }
+}
+
+
+} /*end of work page styles*/
 
 
 
