@@ -4,6 +4,9 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+/*Google Custom Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Capriola|Sniglet');
+
 .browsehappy {
   margin: 0.2em 0;
   background: #D4D4CF;
@@ -25,10 +28,14 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-
+/* change default bootstrap styles for headings*/
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 0.9;
+}
 h1 {
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
 }
 
 /* Custom page header */
@@ -38,18 +45,23 @@ h1 {
   .logo {
     display: inline;
     float: left;
-    padding-right: 20px; /*space between text and logo*/
+    padding-right: 10px; /*space between text and logo*/
     max-width: 100px;
   }
 
   .logotype {
     float: left;
-    width: 50%;
+    width: 65%;
+    font-family: 'Capriola', cursive;
+    font-size: 20px;
+    padding-bottom: 8px;
+    display: block;
   }
 
   .nav {
-    float: right;
     padding-top: 50px;
+    float: right;
+    display: block;
 
     li {
       margin-left: 10px;
@@ -89,6 +101,7 @@ h1 {
   border-bottom: 1px solid #e5e5e5;
   background-image:url('/images/jumb-bg1.png');
   color: #DB2F46;
+  display: block;
   .btn {
     font-size: 21px;
     padding: 14px 24px;
@@ -115,6 +128,10 @@ h1 {
 
   background-color: #DB2F46;
   color: #F7E9D9;
+
+    .logotype {
+      border-bottom: 1px solid #FF3752;
+    }
 
     .nav-tabs {
       border-bottom: 1px solid #FF3752;
