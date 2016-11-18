@@ -38,6 +38,30 @@ h1 {
   padding-bottom: 0px;
 }
 
+.btn-primary {
+  background-color: #AD9E87;
+  color: #F7E9D9;
+  border-color: #CCBA9F;
+}
+
+.btn-primary:hover {
+  background-color: #8658CC;
+  color: #D4A6FF;
+  border-color: #9562E3;
+}
+
+.btn-default { /*social link footer buttons*/
+  background-color: #AD9E87;
+  color: #F7E9D9;
+  border-color: #CCBA9F;
+}
+
+.btn-default:hover {
+  background-color: #8658CC;
+  color: #D4A6FF;
+  border-color: #9562E3;
+}
+
 /* Custom page header */
 .header {
   height: 100px;
@@ -159,6 +183,9 @@ h1 {
   background-color: #1E97C9;
   color: #F7E9D9;
 
+  .logotype {
+    border-bottom: 1px solid #26C0FF;
+  }
     .nav-tabs {
       border-bottom: 1px solid #26C0FF;
 
@@ -185,6 +212,10 @@ h1 {
   background-color: #F0A320;
   color: #F7E9D9;
 
+  .logotype {
+    border-bottom: 1px solid #FFBB22;
+  }
+
     .nav-tabs {
       border-bottom: 1px solid #FFBE22;
 
@@ -201,6 +232,16 @@ h1 {
     color: #F7E9D9;
     border-bottom: transparent;
   }
+  
+  /*not affecting page, fix error
+  .row {
+    padding: 50px;
+    height: 200px;
+  }
+  .col-md-4{
+    background-color: white;
+  }*/
+
 }
 
 
@@ -210,6 +251,10 @@ h1 {
 
   background-color: #079972;
   color: #F7E9D9;
+
+  .logotype {
+    border-bottom: 1px solid #0ACF9A;
+  }
 
     .nav-tabs {
       border-bottom: 1px solid #0ACF9A;
