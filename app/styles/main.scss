@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
   text-align: center;
-  padding-bottom: 0px;
+  padding-bottom: 20px;
 }
 
 .btn-primary {
@@ -109,8 +109,9 @@ h1 {
 
 /* Custom page footer */
 .footer {
-  color: #FAF4DD;
-  padding-top: 19px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #F7E9D9;
   color: #33302D;
   width: auto;
 }
@@ -204,6 +205,17 @@ h1 {
   }
 }
 
+  .thumbnail .btn-default { /*project page thumbnail button styles*/
+      background-color: #1E97C9;
+      color: #F7E9D9;
+      border-color: #F7E9D9;
+    }
+
+  .thumbnail .btn-default:hover {
+    background-color: #F7E9D9;
+    border-color: #F7E9D9;
+    color: #1E97C9;
+  }
 
 } /*end of project page styles*/
 
@@ -232,7 +244,7 @@ h1 {
     color: #F7E9D9;
     border-bottom: transparent;
   }
-  
+
   /*not affecting page, fix error
   .row {
     padding: 50px;
