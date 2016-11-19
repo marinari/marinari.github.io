@@ -236,7 +236,6 @@ h1 {
         border: 1px solid #FFBB22;
       }
   }
-
   .nav .active {
     a {
     background-color: #F0A320;
@@ -244,17 +243,19 @@ h1 {
     color: #F7E9D9;
     border-bottom: transparent;
   }
-
-  /*not affecting page, fix error
-  .row {
-    padding: 50px;
-    height: 200px;
-  }
-  .col-md-4{
-    background-color: white;
-  }*/
-
 }
+
+  .row {
+    padding-left: 10px;
+  }
+
+  .col-sm-4{
+    background-color: #FFBB22;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+
 
 
 } /*end of skill page styles*/
