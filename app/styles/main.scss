@@ -5,7 +5,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 // endbower
 
 /*Google Custom Fonts*/
-@import url('https://fonts.googleapis.com/css?family=Capriola|Sniglet');
+@import url('https://fonts.googleapis.com/css?family=Capriola|Sniglet|Lato:400,700');
 
 .browsehappy {
   margin: 0.2em 0;
@@ -76,10 +76,19 @@ h1 {
   .logotype {
     float: left;
     width: 65%;
-    font-family: 'Capriola', cursive;
-    font-size: 20px;
-    padding-bottom: 8px;
+    font-size: 28px;
+    padding-bottom: 6px;
     display: block;
+
+    h2{
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+    }
   }
 
   .nav {
@@ -223,6 +232,7 @@ h1 {
 
   background-color: #F0A320;
   color: #F7E9D9;
+  font-size: 16px;
 
   .logotype {
     border-bottom: 1px solid #FFBB22;
@@ -244,18 +254,40 @@ h1 {
     border-bottom: transparent;
   }
 }
-
-  .row {
-    padding-left: 10px;
+  span {
+    margin: auto;
+    display: table;
   }
 
-  .col-sm-4{
+  .sectitl {
+    background-color: rgba(255,187,34,0.5);
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 1px;
+  }
+
+  .section{
     background-color: #FFBB22;
-    margin-left: 2px;
-    margin-right: 2px;
+    padding: 8px 10px 8px 10px;
+    border-radius: 4px;
+
+    ul { /*custom bullet point styles*/
+      list-style-type: none;
+    }
+    li {
+      display: block;
+    }
+    li:before {
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 9px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+    color: #8658CC;
+    }
   }
-
-
 
 
 } /*end of skill page styles*/
