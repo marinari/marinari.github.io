@@ -41,7 +41,7 @@ module.exports = function (grunt) {
       pages: {
         options: {
           remote: 'git@github.com:marinari/marinari.github.io.git',
-          branch: 'develop'
+          branch: 'master'
         }
       }
     },
